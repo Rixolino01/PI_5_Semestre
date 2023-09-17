@@ -1,5 +1,8 @@
 const router = require('express').Router()
 
-router.post('/', (req, res)=> res.json({sucess:true}))
+//importando controllers
+const UserController = require('./controllers/UserController')
+
+router.post('/login', UserController.login)
 
 module.exports = router
