@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Ifood_Pet",
-    "slug": "Ifood_Pet",
+    "name": "login-app",
+    "slug": "login-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
