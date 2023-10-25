@@ -11,5 +11,5 @@ const port = process.env.PORT || 3030
 const routes = require('./routes')
 app.use(routes)
 
-//aqui não está trazendo os endereços que as variaveis estão lendo
+//endereço que está rodando
 app.listen(port, () => console.log(`Server started in http://localhost:${port} or ${protocol}://${ip}:${port}`));   
